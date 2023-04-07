@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .map-container {
+    position: relative;
+  }
+  
+  #map-image {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .pin {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
